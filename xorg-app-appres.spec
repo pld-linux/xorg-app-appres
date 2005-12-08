@@ -1,18 +1,18 @@
 Summary:	appres application
 Summary(pl):	Aplikacja appres
 Name:		xorg-app-appres
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/appres-%{version}.tar.bz2
-# Source0-md5:	faabbfaaca5cfdb013b206f5aac0263e
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/appres-%{version}.tar.bz2
+# Source0-md5:	5616bd807596d8dfc4ca66871dbe2d82
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXt-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.1
+BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,8 +37,7 @@ Aplikacja appres.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	appmandir=%{_mandir}/man1
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
