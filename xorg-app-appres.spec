@@ -1,12 +1,12 @@
 Summary:	appres application
 Summary(pl):	Aplikacja appres
 Name:		xorg-app-appres
-Version:	0.99.2
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/appres-%{version}.tar.bz2
-# Source0-md5:	5616bd807596d8dfc4ca66871dbe2d82
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/appres-%{version}.tar.bz2
+# Source0-md5:	4e03ac5f315213d5c70d603fc92cb0a1
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
