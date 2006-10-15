@@ -2,10 +2,10 @@ Summary:	appres application
 Summary(pl):	Aplikacja appres
 Name:		xorg-app-appres
 Version:	1.0.0
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/appres-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/appres-%{version}.tar.bz2
 # Source0-md5:	4e03ac5f315213d5c70d603fc92cb0a1
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
@@ -46,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/appres
-%{_mandir}/man1/*.1x*
+%{_mandir}/man1/appres.1x*
