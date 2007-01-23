@@ -1,4 +1,5 @@
-Summary:	list X application resource database
+Summary:	appres - list X application resource database
+Summary(pl):	appres - wypisywanie bazy danych zasobów aplikacji X
 Name:		xorg-app-appres
 Version:	1.0.1
 Release:	1
@@ -19,6 +20,11 @@ The appres program prints the resources seen by an application (or
 subhierarchy of an application) with the specified class and instance
 names. It can be used to determine which resources a particular
 program will load.
+
+%description -l pl
+Program appres wypisuje zasoby widziane przez aplikacjê (lub
+podhierarchiê aplikacji) o okre¶lonej nazwie klasy i instancji. Mo¿e
+byæ u¿ywany do okre¶lenia, które zasoby wczytuje dany program.
 
 %prep
 %setup -q -n appres-%{version}
