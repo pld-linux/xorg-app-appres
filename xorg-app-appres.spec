@@ -1,12 +1,11 @@
-Summary:	appres application
-Summary(pl):	Aplikacja appres
+Summary:	list X application resource database
 Name:		xorg-app-appres
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/appres-%{version}.tar.bz2
-# Source0-md5:	4e03ac5f315213d5c70d603fc92cb0a1
+# Source0-md5:	420e6cdf38bb771ec8b00228bf09e8ff
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -16,10 +15,10 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-appres application.
-
-%description -l pl
-Aplikacja appres.
+The appres program prints the resources seen by an application (or
+subhierarchy of an application) with the specified class and instance
+names. It can be used to determine which resources a particular
+program will load.
 
 %prep
 %setup -q -n appres-%{version}
