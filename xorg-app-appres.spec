@@ -1,5 +1,5 @@
 Summary:	appres - list X application resource database
-Summary(pl.UTF-8):   appres - wypisywanie bazy danych zasobów aplikacji X
+Summary(pl.UTF-8):	appres - wypisywanie bazy danych zasobów aplikacji X
 Name:		xorg-app-appres
 Version:	1.0.1
 Release:	1
