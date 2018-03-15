@@ -1,13 +1,13 @@
 Summary:	appres - list X application resource database
 Summary(pl.UTF-8):	appres - wypisywanie bazy danych zasobów aplikacji X
 Name:		xorg-app-appres
-Version:	1.0.4
+Version:	1.0.5
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/app/appres-%{version}.tar.bz2
-# Source0-md5:	ed598f0599d726963c1bdfdc691960d9
-URL:		http://xorg.freedesktop.org/
+Source0:	https://xorg.freedesktop.org/releases/individual/app/appres-%{version}.tar.bz2
+# Source0-md5:	f544e701043249d2bb3deed48314bc55
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
@@ -53,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/appres
-%{_mandir}/man1/appres.1x*
+%{_mandir}/man1/appres.1*
